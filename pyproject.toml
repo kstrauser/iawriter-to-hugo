@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "iawriter-to-hugo"
+version = "0.1.0"
+description = "Make an iA Writer directory into a Hugo website"
+authors = ["Kirk Strauser <kirk@strauser.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+xdg-base-dirs = "^6.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+'make-hugo-blog' = 'iawriter_to_hugo.make_hugo_blog:main'

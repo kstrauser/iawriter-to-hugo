@@ -1,0 +1,14 @@
+# Absolute path to the directory of Markdown files to convert:
+writer_post_dir = "/Users/me/Docs/Blog"
+
+# Absolute path to the directory of images that the Markdown files reference:
+writer_image_dir = "/Users/me/Docs/Images"
+
+# Absolute path to the Hugo blog's content docs:
+hugo_post_dir = "/Users/me/Sites/my_blog/content/docs"
+
+# Absolute path to the Hugo blog's static files:
+hugo_image_dir = "/Users/me/Sites/my_blog/static"
+
+# Placeholder text for empty Hugo blog files:
+empty_body_text = "_Work in progress._"
